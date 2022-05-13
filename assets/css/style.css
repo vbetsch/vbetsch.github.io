@@ -485,6 +485,8 @@ section {
   margin-right: 0;
 }
 .portfolio .portfolio-wrap {
+  display: grid;
+  place-items: center;
   transition: 0.3s;
   position: relative;
   overflow: hidden;
