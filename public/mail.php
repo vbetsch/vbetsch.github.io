@@ -33,6 +33,6 @@
         $mail->send();
         header('Location: mail.html');
     } catch (Exception $e) {
-        header('Location: mail-error.html');
+        header('Location: error.html');
     }
 ?>
