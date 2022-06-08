@@ -6,7 +6,11 @@ CL_RESET := \033[39m
 
 .SILENT:
 
-all:
+vendor:
+	composer update
+	echo -e "[${CL_GREEN}OK${CL_RESET}] Composer updated"
+
+local: vendor
 	echo -e "${ARROW} Creating production server..."
 
 	# Overriding the ownership of every server files
@@ -19,4 +23,4 @@ all:
 
 	echo -e "[${CL_GREEN}OK${CL_RESET}] Done! http://localhost"
 
-.PHONY: all
+.PHONY: local
