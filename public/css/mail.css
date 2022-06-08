@@ -8,18 +8,38 @@
 .mail {
     display: flex;
     align-items: center;
-    gap: 1vw;
+    gap: 3vw;
 }
 
 .mail-img{
-    height: 12vh;
+    height: 8vh;
 }
 
 .mail-text-ok{
-    font-size: 2em;
+    font-size: 1em;
 }
 
 .mail-text-error{
-    font-size: 2em;
+    font-size: 1em;
     width: 25ch;
+    margin: 0;
+}
+
+@media only screen and (min-width: 1200px) {
+    .mail {
+        gap: 1vw;
+    }
+
+    .mail-img{
+        height: 12vh;
+    }
+
+    .mail-text-ok{
+        font-size: 2em;
+    }
+
+    .mail-text-error{
+        font-size: 2em;
+        width: 25ch;
+    }
 }
