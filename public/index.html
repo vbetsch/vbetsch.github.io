@@ -39,6 +39,7 @@
 
  <!-- Template Main CSS File -->
   <link href="css/style.css" rel="stylesheet">
+  <link href="css/button.css" rel="stylesheet">
 
   <!-- =======================================================
   * Template Name: iPortfolio - v3.7.0
@@ -113,7 +114,8 @@
                   <li><i class="bi bi-chevron-right"></i> <strong>Date de Naissance:</strong> <span>4 décembre 2000</span></li>
                   <li><i class="bi bi-chevron-right"></i> <strong>Formation:</strong> <span>BTS SIO</span></li>
                   <li><i class="bi bi-chevron-right"></i> <strong>Téléphone:</strong> <span><a href="tel:+33603155113">+33 6 03 15 51 13</a></span></li>
-                  <li><i class="bi bi-chevron-right"></i> <a href="docs/BETSCH_Victor_CV.pdf" target="_blank">Télécharger mon CV</a></li>
+                  <br>
+                  <li><a class="button" href="docs/BETSCH_Victor_CV.pdf" target="_blank">Télécharger mon CV</a></li>
                 </ul>
               </div>
               <div class="col-lg-6">
@@ -279,7 +281,7 @@
         <div class="row" data-aos="fade-up">
           <div class="col-lg-12 d-flex justify-content-center">
             <ul id="portfolio-flters">
-              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter="*" class="filter-active">Tous</li>
               <li data-filter=".filter-app">App</li>
               <li data-filter=".filter-web">Web</li>
             </ul>
@@ -373,16 +375,16 @@
             <form action="mail.php" method="post" role="form" class="php-email-form">
               <div class="row">
                 <div class="form-group col-md-6">
-                  <label for="name">Your Name</label>
+                  <label for="name">Votre Nom</label>
                   <input type="text" name="name" class="form-control" id="name" required>
                 </div>
                 <div class="form-group col-md-6">
-                  <label for="name">Your Email</label>
+                  <label for="name">Votre Email</label>
                   <input type="email" class="form-control" name="email" id="email" required>
                 </div>
               </div>
               <div class="form-group">
-                <label for="name">Subject</label>
+                <label for="name">Objet</label>
                 <input type="text" class="form-control" name="subject" id="subject" required>
               </div>
               <div class="form-group">
@@ -390,11 +392,11 @@
                 <textarea class="form-control" name="message" rows="10" required></textarea>
               </div>
               <div class="my-3">
-                <div class="loading">Loading</div>
+                <div class="loading">Chargement</div>
                 <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
+                <div class="sent-message">Le message a été envoyé. Merci!</div>
               </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
+              <div class="text-center"><button type="submit">Envoyer</button></div>
             </form>
           </div>
       </div>
