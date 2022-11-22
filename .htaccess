@@ -1,6 +1,0 @@
-RewriteEngine on
-RewriteCond %{HTTP_HOST} ^victorbetsch\.com$ [OR]
-RewriteCond %{HTTP_HOST} ^www\.victorbetsch\.com$
-ErrorDocument 403 /error.html
-ErrorDocument 403 /error.html
-ErrorDocument 500 /error.html
